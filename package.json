@@ -1,9 +1,11 @@
 {
   "name": "homey-oss-publicapi",
   "version": "0.1.0",
-  "description": "Homey app for the OSS public API (https://publicapi.oss.no)",
+  "description": "Homey app for the OSS Public API (https://publicapi.oss.no)",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "generate:capabilities": "node tools/generate-capabilities.js"
+  },
   "engines": {"homey": ">=3.0.0"},
   "author": "antonhagg",
   "license": "MIT",
