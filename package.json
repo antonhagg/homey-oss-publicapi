@@ -1,0 +1,14 @@
+{
+  "name": "homey-oss-publicapi",
+  "version": "0.1.0",
+  "description": "Homey app for the OSS public API (https://publicapi.oss.no)",
+  "main": "app.js",
+  "scripts": {},
+  "engines": {"homey": ">=3.0.0"},
+  "author": "antonhagg",
+  "license": "MIT",
+  "dependencies": {
+    "swagger-client": "^3.19.0",
+    "axios": "^1.4.0"
+  }
+}

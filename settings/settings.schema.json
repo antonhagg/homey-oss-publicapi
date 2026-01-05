@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "swaggerUrl": {"type":"string","title":"Swagger URL","default":"https://publicapi.oss.no/swagger/v1.0/swagger.json"},
+    "authType": {"type":"string","enum":["none","apiKey","bearer"],"default":"none"},
+    "apiKey": {"type":"string"},
+    "bearerToken": {"type":"string"}
+  }
+}

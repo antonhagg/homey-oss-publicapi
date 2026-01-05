@@ -1,0 +1,19 @@
+{
+  "id": "no.oss.publicapi",
+  "version": "0.1.0",
+  "compatibility": ">=3.0.0",
+  "name": {"en": "OSS Public API"},
+  "description": {"en": "Integrate Homey with the OSS public API"},
+  "author": "antonhagg",
+  "category": "services",
+  "permissions": ["homey:manager:drivers","homey:manager:flows","webRequest"],
+  "dependencies": {},
+  "drivers": [
+    {
+      "id": "oss-resource",
+      "name": {"en": "OSS Resource"},
+      "class": "sensor",
+      "capabilities": []
+    }
+  ]
+}
